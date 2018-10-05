@@ -1,0 +1,12 @@
+{
+"TR": 2.15,
+"remove_TRs":2,
+"sg_filter_order": 3,
+"sg_filter_window_length": 120,
+"highpass_filter":-1,
+"fwhm_size":4,
+"which_file_is_EPI_space": "middle",
+"psc_func": "median",
+"av_across_runs_func": "median",
+"avg_subject_label_folder": "Park"
+}

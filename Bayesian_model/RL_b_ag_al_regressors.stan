@@ -61,7 +61,8 @@ parameters{
 transformed parameters{
   // group level mean parameters
   real<lower=0,upper=100> mu_b; 				
-  real<lower=0,upper=1> mu_ag;   		
+  real<lower=0,upper=1> mu_ag;  
+  real<lower=0,upper=1> mu_al;  		
 
   real<lower=-5,upper=5> k_b_med;
   real<lower=-5,upper=5> k_ag_med;
